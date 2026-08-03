@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/kriti/CancerDetectionProject/mlruns/1/models/m-045a6ee31e0143be873625af8e631659/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-045a6ee31e0143be873625af8e631659
+model_size_bytes: 9977
+model_uuid: m-045a6ee31e0143be873625af8e631659
+prompts: null
+run_id: ef4530fb53e74925abb1a593fe12a124
+utc_time_created: '2026-07-27 05:22:27.802929'
